@@ -11,7 +11,7 @@ class mediaQuery extends StatelessWidget {
       ),
       body: Container(
         width: MediaQuery.of(context).size.width * 0.2,
-        height: MediaQuery.of(context).size.height * 0.4,
+        height: MediaQuery.of(context).size.height * 0.5,
         color: Colors.amber,
       ),
     );
