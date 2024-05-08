@@ -7,11 +7,11 @@ class mediaQuery extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Hello Media QUery"),
+        title: Text("Hello Media Query"),
       ),
       body: Container(
-        height: 200,
-        width: 200,
+        width: MediaQuery.of(context).size.width * 0.2,
+        height: MediaQuery.of(context).size.height * 0.4,
         color: Colors.amber,
       ),
     );
